@@ -56,3 +56,13 @@ nunca dentro de un archivo versionado. Consulte [autenticación de GitHub](https
 Los hashes comprueban consistencia con MANIFEST.json, no certifican identidad
 del autor ni reemplazan una firma. El repositorio público ofrece lectura anónima;
 las escrituras quedan bajo las autorizaciones de GitHub de su propietario.
+
+## Comprobación posterior a la publicación
+
+El 2026-10-10 se clonó públicamente el repositorio en una carpeta independiente
+y se verificó el snapshot `1e09b74130100e193f1626a8baf23b17adb86bd3`.
+Coincidieron los 64 hashes declarados en MANIFEST.json. Desde esa descarga,
+`python reproducir.py` aprobó las siete pruebas, reconstruyó 48 comparaciones,
+infirió 2993619 píxeles y reprodujo los seis escenarios para 65 parroquias sin
+usar credenciales. La documentación de este resultado se añadió después de esa
+ejecución; no cambia código, datos, pesos ni resultados científicos.
