@@ -1,0 +1,15 @@
+variable,descripcion,unidad,N,media,desv_estandar,minimo,maximo
+construido_ha,Construido WorldCover 2021,ha,65,460.5438461538461,452.7697040600922,31.3,2960.35
+area_prioritaria_ha,Construido en decil superior,ha,65,46.05184615384615,65.46516055535541,0.0,327.28000000000003
+prioritario_red_residual_pct,Construido en decil superior,%,65,7.926634375328719,8.565679492310494,0.0,34.71315321791569
+pc_pnbi,Personas con NBI,% de personas del universo NBI,65,21.07995805296071,14.55185345425011,4.807585978104612,69.24392747177556
+pc_SH,Saneamiento inadecuado,% del universo SH,65,3.5376910524462866,4.6285361226925055,0.055355660116247,20.01545595054096
+pc_FSA,Acceso limitado a agua segura,% del universo FSA,65,12.161928086893633,13.18250750966784,1.764945929402163,61.01882613510521
+pc_HAC,Hacinamiento,% del universo HAC,65,3.929377756428422,1.9690511388856058,0.556113902847571,9.440175631174537
+p_humedo_media_construido,Probabilidad húmeda ponderada por construido,0 a 1,65,0.5582143230486866,0.11140494313853745,0.41307776041085187,0.9646391398662634
+area_prioritaria_ponderada_humedad_ha,Área prioritaria ponderada por humedad,ha ponderadas,65,25.039177283653853,35.43422862491161,0.0,149.67703125
+indice_NBI_ha_ponderadas,Índice de prioridad NBI,ha ponderadas por humedad y NBI,65,3.118754615511076,4.751131420321468,0.0,22.150567562389753
+soporte_recortado_pct,Construido con covariable recortada,%,65,13.969204370191202,16.14437808789648,0.0,66.43916574522439
+borde_externo_pct,Construido con influencia del borde hidrológico,%,65,0.006404887433557994,0.02225972877796316,0.0,0.15265382808830436
+construido_excluido_ha,Construido excluido por soporte,ha,65,4.426769230769231,11.701541980078458,0.0,85.8
+cobertura_construido_pct,Cobertura del construido fuente,%,65,99.00082046996764,2.3440294119788394,82.32167140561255,100.0

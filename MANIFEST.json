@@ -1,0 +1,322 @@
+{
+  "version": "1.0.0",
+  "snapshot": "2026-10-09",
+  "files": [
+    {
+      "name": ".gitignore",
+      "bytes": 150,
+      "sha256": "de03651e557b9d102a7b883f70b09ad79b0838950bcc95dc72ec1907feb7d0c7"
+    },
+    {
+      "name": "AUTHENTICATION.md",
+      "bytes": 3720,
+      "sha256": "64423c2c9bd750d15e096afed317a84beb6ec4f39195626b0e394bea4ef53787"
+    },
+    {
+      "name": "CITATION.cff",
+      "bytes": 650,
+      "sha256": "3a73701d74a373b55396f016bf0feba8f9937cec3b5d603fe2f9c88ad3030ee1"
+    },
+    {
+      "name": "CODIGO_HISTORICO.zip",
+      "bytes": 337166,
+      "sha256": "d9fb4d7494fc3c7c3fc539b6f002b2396587a254ef14870258e2c8da51dd58bd"
+    },
+    {
+      "name": "DATA_LICENSES.md",
+      "bytes": 3374,
+      "sha256": "3003169a6ac834ec7d0d4b6fe7c1346e74c20ffdde006792e1ca6f79e31a622e"
+    },
+    {
+      "name": "DATOS_espacial__base.npz",
+      "bytes": 1858491,
+      "sha256": "fbb5f873c383c25e65a2333711b691ccd5bf7c450c11d545883a21aa458e43cb"
+    },
+    {
+      "name": "DATOS_espacial__vias.npz",
+      "bytes": 2061503,
+      "sha256": "f8a2ffb8cd36670a12b00bb45ba55c62051f8e3460caf1a7973e11bf8308d574"
+    },
+    {
+      "name": "DATOS_espacial__vias_copernicus.npz",
+      "bytes": 2307097,
+      "sha256": "bf7ca2e190f81e852efc237fa2dfbe280d06facca68d775df6a270caff58e7e0"
+    },
+    {
+      "name": "DATOS_espacial__vias_fabdem.npz",
+      "bytes": 2314392,
+      "sha256": "cb372b246443372528717081b785cad7939ac69057875c3130f743442d39a122"
+    },
+    {
+      "name": "DATOS_GEOMETRIA_PARROQUIAL.geojson",
+      "bytes": 3444421,
+      "sha256": "abaca78612178ffa50eacd9a6b6d84b5aef7af6ee21bc49563a9e7fe433b1d02"
+    },
+    {
+      "name": "DATOS_LLUVIA_ESCENARIOS.csv",
+      "bytes": 40302,
+      "sha256": "4447d4bf4319d47162a0ea4485b26921fdb6ec09d01f0aa6164c3b670cb27ca8"
+    },
+    {
+      "name": "DATOS_PARROQUIAS.csv",
+      "bytes": 10075,
+      "sha256": "359b5bf9510491b4fa306cf5ea5c7d0cf77d0f404610275706260aabdafa5448"
+    },
+    {
+      "name": "DATOS_temporal__base.npz",
+      "bytes": 1925515,
+      "sha256": "bfac6e6d96a8e51f6db74e69d9742a2f03f3fbf9244fcf870f814b574adbf177"
+    },
+    {
+      "name": "DATOS_temporal__vias.npz",
+      "bytes": 2134022,
+      "sha256": "526895d0bf0e24d7fe21ee33092bca3e12acd5ee8257fe14736d8f6dac1ee0fe"
+    },
+    {
+      "name": "DATOS_temporal__vias_copernicus.npz",
+      "bytes": 2395060,
+      "sha256": "5e1443ad49d2e959103f9e75b299847c30f1105e6d29b6553143107f78f65e80"
+    },
+    {
+      "name": "DATOS_temporal__vias_fabdem.npz",
+      "bytes": 2404149,
+      "sha256": "c1ea6dc622765b6b01a85cfa94143ffe87a027f4a584837318c4dedc85609e67"
+    },
+    {
+      "name": "descargar_fuentes.py",
+      "bytes": 2529,
+      "sha256": "3349c42f843ff154f77ee56d2001b28eb47756d6fd94ff1bdc13459f78ebd4d4"
+    },
+    {
+      "name": "DICCIONARIO_DATOS.md",
+      "bytes": 2305,
+      "sha256": "18519f15940de7711d45d5badf5c1071d8beb095620a139622f06cac2ca0f724"
+    },
+    {
+      "name": "EJECUTAR_TODO.cmd",
+      "bytes": 139,
+      "sha256": "f363784afd1f58d7f0eb7c1b068a2f3873c94a8cb6d1a7a37cbca679b69d1b8d"
+    },
+    {
+      "name": "entrenar.py",
+      "bytes": 4811,
+      "sha256": "305b5f51531dac0f31ec9fa897343c863ac3f337d2babb70bdc1f4b60dc40721"
+    },
+    {
+      "name": "FIGURA_construido_prioritario.png",
+      "bytes": 329018,
+      "sha256": "9727f2c8b080742edf71056ec8f062fba5665231f4276324b036ca06c2a4b26a"
+    },
+    {
+      "name": "FIGURA_prioridad_integrada.png",
+      "bytes": 266828,
+      "sha256": "7decfd908d414ace1f0beb9a4fc099309f6b9e0a73257fa0d1ea7368602d625e"
+    },
+    {
+      "name": "FIGURA_prioridad_integrada.svg",
+      "bytes": 454510,
+      "sha256": "99dc2c060377abeeb24786f70f3abd4e17b39c52ef6808dad13534b895832033"
+    },
+    {
+      "name": "FUENTES.json",
+      "bytes": 1728,
+      "sha256": "55f168493c8c9533f10d72b0c43cc627fbaa6d1c9a227aec35b83064e82b261b"
+    },
+    {
+      "name": "GRILLA.json",
+      "bytes": 4036,
+      "sha256": "4e77d6cf108d1051886673ff103a4c0c8fb02a2676296cf5aa1fd0328430b40a"
+    },
+    {
+      "name": "LICENSE",
+      "bytes": 1321,
+      "sha256": "ad78d73af72e3780c88cfaa68ae03e66826fe165623e24b2eb9a383a0e551638"
+    },
+    {
+      "name": "METODOLOGIA.md",
+      "bytes": 3911,
+      "sha256": "7e56b3517c6896c580995640f8d78eba3b0c8f17395f08ec47fc5402d4fcd201"
+    },
+    {
+      "name": "MODEL_CARD.md",
+      "bytes": 3540,
+      "sha256": "fd84b7b40e9e50f2ddc99e8d0bae5477beb9f7a4084c50cb06422e9da64ea32d"
+    },
+    {
+      "name": "modelo.py",
+      "bytes": 2073,
+      "sha256": "92238c8b6c45ffb3747eadaa907d9c94d476b36223542b4956ff426099d1abc1"
+    },
+    {
+      "name": "PARAMETROS.json",
+      "bytes": 26976,
+      "sha256": "915c9765a37ca8611c31f515b9bb8a76fbb2b315cf7b9b746dd7d13a64861af6"
+    },
+    {
+      "name": "PESOS.npz",
+      "bytes": 186562,
+      "sha256": "3e53d46b4f5289ab676defcc4ecd083b70785426c6ea7815f0eb44ecc6117fa1"
+    },
+    {
+      "name": "PESOS_METADATA.json",
+      "bytes": 11261,
+      "sha256": "b68a2e72ddeb8e3b63d1e8e7f322d487240a79b24daa54eef8e1511ba101884b"
+    },
+    {
+      "name": "PIXELES_000.npz",
+      "bytes": 6029281,
+      "sha256": "297ac6467a8959fd4862155ca288ffc066ae25d468a94424bed13b069f71ec22"
+    },
+    {
+      "name": "PIXELES_001.npz",
+      "bytes": 7103025,
+      "sha256": "70c5e4d44eede35a21b57b550f46d6da50342dbfd640cbbcab08554fb2f45c3a"
+    },
+    {
+      "name": "PIXELES_002.npz",
+      "bytes": 6588862,
+      "sha256": "76b46ce92111e87aeb4b01c6d8348b4cf1a3ffdff051d098e79d6a51d9e3c28f"
+    },
+    {
+      "name": "PIXELES_003.npz",
+      "bytes": 6394891,
+      "sha256": "c800be3f4a68627ff60607f3076507e2e9cb5bf58265cf2b4d951199954d6180"
+    },
+    {
+      "name": "PIXELES_004.npz",
+      "bytes": 6373570,
+      "sha256": "5b39590ed87e51ea06b89e331b9cc2c2d1250524c1cb1f13ebf4d5e2d7783b5a"
+    },
+    {
+      "name": "PIXELES_005.npz",
+      "bytes": 6933529,
+      "sha256": "8719f26702e64b69f685bdf2af68a294fccb72477d6e9760cb6b57480b7f1155"
+    },
+    {
+      "name": "PIXELES_006.npz",
+      "bytes": 6682884,
+      "sha256": "77672d5f0785c25d9761a47669509f9d3e4941ba765e3af58513693bdc037a6d"
+    },
+    {
+      "name": "PIXELES_007.npz",
+      "bytes": 6865625,
+      "sha256": "05138747f4bb890b27b49cf7fa820423859594098621449c59c01070526ff9fb"
+    },
+    {
+      "name": "PIXELES_008.npz",
+      "bytes": 6574417,
+      "sha256": "4af070f88deca6f9d577080e745a5260871032802cb3cfc3f837a788070ad3bf"
+    },
+    {
+      "name": "PIXELES_009.npz",
+      "bytes": 6967055,
+      "sha256": "b4d42935945174f57b342e2cea9e052b1cfde13364105f589a5ffefbfeb6a62f"
+    },
+    {
+      "name": "PIXELES_010.npz",
+      "bytes": 6973314,
+      "sha256": "1ab7b6d2ffe85e4f3eb23bd1151700c1879e56903cd54e3471b894e7a0da730a"
+    },
+    {
+      "name": "PIXELES_011.npz",
+      "bytes": 6498968,
+      "sha256": "0e945766efd5dec24351f1284f2d0a8dbc8df288c0c456a7ed3dc480340bc225"
+    },
+    {
+      "name": "pruebas.py",
+      "bytes": 2583,
+      "sha256": "781668030022029e8667cd9359282bbd40fe22fe4aaab4b8f4f4540595f4779b"
+    },
+    {
+      "name": "README.md",
+      "bytes": 6586,
+      "sha256": "471e11451d458bbb85f4bcf69c2eea3ae1ab26f45bbdedda4beb0db4d9f28863"
+    },
+    {
+      "name": "REFERENCIA_comparacion_modelos.csv",
+      "bytes": 3645,
+      "sha256": "94e1dbeb94d7de5f216f0578be6ea2f3614e84608a39d24c2cbeae8c2a1ff2a3"
+    },
+    {
+      "name": "REFERENCIA_diferencias_emparejadas.csv",
+      "bytes": 3683,
+      "sha256": "c4afb000d1f8be2ef0ad13fcea2f221f81464bb02cfd7cf1a29810f9552f7dff"
+    },
+    {
+      "name": "REFERENCIA_intersecciones.npz",
+      "bytes": 8575,
+      "sha256": "276487929ccdb168ca4215a2fe1eefb583a480467c10c26f8e9ec654ddb0fd2d"
+    },
+    {
+      "name": "REFERENCIA_percentil_construido_ancla_acotada_10m.tif",
+      "bytes": 8024098,
+      "sha256": "c4650e9b072c98bf774d25bcc15c62cda136a003f5de324e26db7d43ce479012"
+    },
+    {
+      "name": "REFERENCIA_percentil_construido_red_residual_10m.tif",
+      "bytes": 8043973,
+      "sha256": "1ee500c26e1ad03953593be10a64e41f4a986c88b5f64c5b2fa25b68b2ea8f57"
+    },
+    {
+      "name": "REFERENCIA_prioridad_integrada.csv",
+      "bytes": 142891,
+      "sha256": "eae5420989b1ebe3235d850b1fe0339c5992a22c52f175be5f65abaa9974918e"
+    },
+    {
+      "name": "REFERENCIA_summarize.csv",
+      "bytes": 1853,
+      "sha256": "51d349cd448424ca1a94f9bf2ef3fd7c760ec8a14fcfc3ce70e52ad34a94d2ef"
+    },
+    {
+      "name": "referencias.bib",
+      "bytes": 15125,
+      "sha256": "8c6e18e27085e17c048c9ee444b2833de65900867b532db5faa4f769faa9718a"
+    },
+    {
+      "name": "REFERENCIAS_PREDICCIONES.npz",
+      "bytes": 4472923,
+      "sha256": "0926b3ba01b4e960587b71ac56179b0222f3910d31b0b749f54a86e042b655d9"
+    },
+    {
+      "name": "reproducir.py",
+      "bytes": 17942,
+      "sha256": "a7768d9435588b55e338bfad85ed6efd8fe027f5f380606d2d1aa3089df54d53"
+    },
+    {
+      "name": "requirements-entrenamiento.txt",
+      "bytes": 109,
+      "sha256": "8fe4e2a22755239826a4c57da4ab1e8c6d188e4de83cc0a7d11ce7e7d021dd66"
+    },
+    {
+      "name": "requirements.txt",
+      "bytes": 97,
+      "sha256": "b82e797217cd725df860af2cecd6aeb9435235ce02e6ed8bfc31a6471dd871ed"
+    },
+    {
+      "name": "SECURITY.md",
+      "bytes": 1551,
+      "sha256": "8764429da55c8cb4c4915f07a025c581c3d9390a966ecdc537872826814ba736"
+    },
+    {
+      "name": "SELECCION.json",
+      "bytes": 2257,
+      "sha256": "c46d4e391a21a3e24cbdbc675e27e7f01f790f5f01249c759c41b8e6e36efb6d"
+    },
+    {
+      "name": "VERIFICACION_PUBLICADA.md",
+      "bytes": 1753,
+      "sha256": "b9353b5bd8f1a9d4e8290ead4a557920adbaa9c363fe063fa0e39a890006cdd6"
+    },
+    {
+      "name": "VERIFICACION_REENTRENAMIENTO_CPU.json",
+      "bytes": 1940,
+      "sha256": "2a3ec59448911dd86321e54060735cc870bccf89c9a5393e0b359bf8d92ca8be"
+    },
+    {
+      "name": "VERIFICACION_REPRODUCCION.json",
+      "bytes": 1155,
+      "sha256": "12b3b6c5566d3bbaa7892ff7e7ef617cdf3c7e83f2d694d2094cbb338d9ac3af"
+    }
+  ],
+  "manifest_self_hash_excluded": true
+}

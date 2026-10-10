@@ -1,0 +1,48 @@
+{
+  "benchmark": {
+    "n_model_comparisons": 48,
+    "max_metric_error": 6.545621249465228e-07,
+    "legacy_comparators_from_frozen_predictions": true
+  },
+  "mapa": {
+    "n_pixels": 2993619,
+    "normalizers": [
+      5.144448616603253,
+      5.1580038764482445,
+      5.117533433151433,
+      5.197399052181215
+    ],
+    "max_pixel_error": 4.76837158203125e-07,
+    "map_interpretation": "densidad relativa sobre construido, no P(inundación)"
+  },
+  "prioridad": {
+    "n_parishes": 65,
+    "n_scenarios": 6,
+    "max_priority_error": 0.0,
+    "numerical_boundary_pixels": {
+      "red_residual_q80": 0,
+      "red_residual_q90": 0,
+      "red_residual_q95": 0,
+      "ancla_acotada_q80": 0,
+      "ancla_acotada_q90": 0,
+      "ancla_acotada_q95": 0
+    },
+    "top13": [
+      "GUAMANI",
+      "CALDERÓN",
+      "TURUBAMBA",
+      "LA ECUATORIANA",
+      "QUITUMBE",
+      "AMAGUAÑA",
+      "CONOCOTO",
+      "CHILLOGALLO",
+      "SAN ANTONIO",
+      "SOLANDA",
+      "TUMBACO",
+      "SAN BARTOLO",
+      "EL CONDADO"
+    ]
+  },
+  "elapsed_seconds": 6.14282699999967,
+  "credentials_used": false
+}

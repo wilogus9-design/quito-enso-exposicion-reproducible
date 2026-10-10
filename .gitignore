@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv*/
+resultados/
+.env
+.env.*
+.netrc
+credentials
+credentials.json
+*service-account*.json
+*.pem
+*.key
+MODELOS_PRIVADOS/
+*.parquet

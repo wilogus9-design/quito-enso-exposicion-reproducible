@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Cite este paquete y las fuentes originales indicadas en DATA_LICENSES.md."
+type: software
+title: "Quito: susceptibilidad a inundación y prioridad social bajo escenarios de lluvia"
+version: 1.0.0
+date-released: 2026-10-10
+authors:
+  - family-names: "Morales Lastra"
+    given-names: "Wilson Gustavo"
+    affiliation: "Investigador independiente, Ecuador"
+    orcid: "https://orcid.org/0009-0008-3413-3705"
+    email: "wilson.morales@epn.edu.ec"
+repository-code: "https://github.com/wilogus9-design/quito-enso-exposicion-reproducible"
+license: MIT
+keywords:
+  - Quito
+  - inundación
+  - ENSO
+  - NBI
+  - reproducibilidad

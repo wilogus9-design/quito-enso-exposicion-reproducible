@@ -1,0 +1,71 @@
+{
+  "benchmark": {
+    "n_model_comparisons": 48,
+    "max_metric_error": 6.545621249465228e-07,
+    "legacy_comparators_from_frozen_predictions": true
+  },
+  "reentrenamiento": {
+    "models": [
+      {
+        "key": "temporal__vias_fabdem",
+        "bound": 0.25,
+        "seed": 5101,
+        "epoch": 20,
+        "cal_log_density": 1.9570198059082031,
+        "torch_version": "2.11.0+cu128",
+        "device": "cpu"
+      },
+      {
+        "key": "temporal__vias_fabdem",
+        "bound": 0.25,
+        "seed": 5102,
+        "epoch": 20,
+        "cal_log_density": 1.9564733505249023,
+        "torch_version": "2.11.0+cu128",
+        "device": "cpu"
+      },
+      {
+        "key": "temporal__vias_fabdem",
+        "bound": 0.25,
+        "seed": 5103,
+        "epoch": 20,
+        "cal_log_density": 1.9568233489990234,
+        "torch_version": "2.11.0+cu128",
+        "device": "cpu"
+      },
+      {
+        "key": "temporal__vias_fabdem",
+        "bound": 1.0,
+        "seed": 5101,
+        "epoch": 10,
+        "cal_log_density": 1.9567584991455078,
+        "torch_version": "2.11.0+cu128",
+        "device": "cpu"
+      },
+      {
+        "key": "temporal__vias_fabdem",
+        "bound": 1.0,
+        "seed": 5102,
+        "epoch": 0,
+        "cal_log_density": 1.9563636779785156,
+        "torch_version": "2.11.0+cu128",
+        "device": "cpu"
+      },
+      {
+        "key": "temporal__vias_fabdem",
+        "bound": 1.0,
+        "seed": 5103,
+        "epoch": 10,
+        "cal_log_density": 1.9571475982666016,
+        "torch_version": "2.11.0+cu128",
+        "device": "cpu"
+      }
+    ],
+    "bound_selected_by_calibration": 0.25,
+    "test_used_for_selection": false,
+    "frozen_anchor": true,
+    "note": "Diferencias CPU/CUDA/versiones pueden impedir igualdad bit a bit"
+  },
+  "elapsed_seconds": 28.321690100001433,
+  "credentials_used": false
+}

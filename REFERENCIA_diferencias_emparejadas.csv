@@ -1,0 +1,25 @@
+protocolo,variante,comparador,delta_log_densidad_residual,rango95_inf,rango95_sup,n_bloques,inferencia
+temporal,base,loglineal,0.0006241890374824277,-0.0008137334697658032,0.0015588473962862824,36,exploratoria por bloques; extensión posterior a V10
+temporal,base,ancla_acotada,9.190314105376185e-06,-3.012862158502662e-05,6.828275643371441e-05,36,exploratoria por bloques; extensión posterior a V10
+temporal,base,red_libre,0.03454912846497073,-0.02494791796433561,0.10977332353964286,36,exploratoria por bloques; extensión posterior a V10
+temporal,vias,loglineal,0.0006325940775495686,-0.0007227625439329226,0.0016458763976757798,36,exploratoria por bloques; extensión posterior a V10
+temporal,vias,ancla_acotada,0.00012600560381264447,-0.00024330511406770345,0.0006503790657624238,36,exploratoria por bloques; extensión posterior a V10
+temporal,vias,red_libre,0.03911848077235644,-0.01967334715795726,0.11243480609427074,36,exploratoria por bloques; extensión posterior a V10
+temporal,vias_copernicus,loglineal,0.019893067588789684,0.0022555938415641636,0.040444181198190036,36,exploratoria por bloques; extensión posterior a V10
+temporal,vias_copernicus,ancla_acotada,0.0008437072224983865,-0.0007360862711850626,0.003039425933084017,36,exploratoria por bloques; extensión posterior a V10
+temporal,vias_copernicus,red_libre,0.03848518622283103,-0.01873387290476293,0.11078023406632702,36,exploratoria por bloques; extensión posterior a V10
+temporal,vias_fabdem,loglineal,0.02693512873674356,0.0028702473182154174,0.051708721209119124,36,exploratoria por bloques; extensión posterior a V10
+temporal,vias_fabdem,ancla_acotada,0.0034009809140224667,-0.002532356147558589,0.01130038994834321,36,exploratoria por bloques; extensión posterior a V10
+temporal,vias_fabdem,red_libre,0.0148651280827215,-0.06625934092452877,0.09429497438099652,36,exploratoria por bloques; extensión posterior a V10
+espacial,base,loglineal,0.01810903809840117,-0.08243850692761119,0.20771302722969756,13,exploratoria por bloques; extensión posterior a V10
+espacial,base,ancla_acotada,0.026129752669402543,-0.07671847678052235,0.21249098511512965,13,exploratoria por bloques; extensión posterior a V10
+espacial,base,red_libre,1.3469972851014138,1.208254229076481,1.6358325861734115,13,exploratoria por bloques; extensión posterior a V10
+espacial,vias,loglineal,0.03574575532765242,-0.11433708871637716,0.21603671450590617,13,exploratoria por bloques; extensión posterior a V10
+espacial,vias,ancla_acotada,0.04305443331166194,-0.10473384281857649,0.22222213224699294,13,exploratoria por bloques; extensión posterior a V10
+espacial,vias,red_libre,2.065702575120361,1.9550133640922807,2.272542140361304,13,exploratoria por bloques; extensión posterior a V10
+espacial,vias_copernicus,loglineal,-0.05155569292433398,-0.08248213955150248,-0.02287687060531949,13,exploratoria por bloques; extensión posterior a V10
+espacial,vias_copernicus,ancla_acotada,-0.053333826417591115,-0.07028801551530024,-0.03028406362645981,13,exploratoria por bloques; extensión posterior a V10
+espacial,vias_copernicus,red_libre,1.0368865402848315,0.9439350970882965,1.2212346274600918,13,exploratoria por bloques; extensión posterior a V10
+espacial,vias_fabdem,loglineal,-0.03814735825786662,-0.06865371281199081,-0.012000259052214435,13,exploratoria por bloques; extensión posterior a V10
+espacial,vias_fabdem,ancla_acotada,-0.025379234436213302,-0.05136824633767606,-0.0006898446844600155,13,exploratoria por bloques; extensión posterior a V10
+espacial,vias_fabdem,red_libre,2.3670097960936065,2.264331874053946,2.539778751698075,13,exploratoria por bloques; extensión posterior a V10

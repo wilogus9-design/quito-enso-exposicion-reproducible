@@ -1,0 +1,114 @@
+{
+  "temporal__base": {
+    "bound_selected_by_calibration": 0.25,
+    "mean_calibration_scores": [
+      [
+        1.9273478190104167,
+        0.25
+      ],
+      [
+        1.9272937774658203,
+        1.0
+      ]
+    ],
+    "test_not_used_for_selection": true
+  },
+  "temporal__vias": {
+    "bound_selected_by_calibration": 0.25,
+    "mean_calibration_scores": [
+      [
+        1.972551663716634,
+        0.25
+      ],
+      [
+        1.9725208282470703,
+        1.0
+      ]
+    ],
+    "test_not_used_for_selection": true
+  },
+  "temporal__vias_copernicus": {
+    "bound_selected_by_calibration": 0.25,
+    "mean_calibration_scores": [
+      [
+        2.006415685017904,
+        0.25
+      ],
+      [
+        2.0063327153523765,
+        1.0
+      ]
+    ],
+    "test_not_used_for_selection": true
+  },
+  "temporal__vias_fabdem": {
+    "bound_selected_by_calibration": 0.25,
+    "mean_calibration_scores": [
+      [
+        1.9567721684773762,
+        0.25
+      ],
+      [
+        1.956756591796875,
+        1.0
+      ]
+    ],
+    "test_not_used_for_selection": true
+  },
+  "espacial__base": {
+    "bound_selected_by_calibration": 1.0,
+    "mean_calibration_scores": [
+      [
+        1.8824936548868816,
+        0.25
+      ],
+      [
+        1.9775230089823406,
+        1.0
+      ]
+    ],
+    "test_not_used_for_selection": true
+  },
+  "espacial__vias": {
+    "bound_selected_by_calibration": 1.0,
+    "mean_calibration_scores": [
+      [
+        1.9689833323160808,
+        0.25
+      ],
+      [
+        2.041416803995768,
+        1.0
+      ]
+    ],
+    "test_not_used_for_selection": true
+  },
+  "espacial__vias_copernicus": {
+    "bound_selected_by_calibration": 0.25,
+    "mean_calibration_scores": [
+      [
+        1.9313820203145344,
+        0.25
+      ],
+      [
+        1.9155473709106445,
+        1.0
+      ]
+    ],
+    "test_not_used_for_selection": true
+  },
+  "espacial__vias_fabdem": {
+    "bound_selected_by_calibration": 0.25,
+    "mean_calibration_scores": [
+      [
+        1.9839940071105957,
+        0.25
+      ],
+      [
+        1.9683728218078613,
+        1.0
+      ]
+    ],
+    "test_not_used_for_selection": true
+  }
+}

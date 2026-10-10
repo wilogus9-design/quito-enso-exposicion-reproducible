@@ -1,0 +1,2 @@
+# Python 3.10 o posterior. Inferencia, controles y tablas sin servicios externos.
+numpy>=1.26,<3

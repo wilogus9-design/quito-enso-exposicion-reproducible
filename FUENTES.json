@@ -1,0 +1,52 @@
+{
+  "snapshot": "2026-10-09",
+  "author": "Wilson Gustavo Morales Lastra",
+  "author_orcid": "https://orcid.org/0009-0008-3413-3705",
+  "historical_code_files": 111,
+  "events": {
+    "institution": "Secretaría Nacional de Gestión de Riesgos",
+    "period": "2010–septiembre 2025",
+    "only_flood_reports_published": true,
+    "coordinates_names_addresses_identifiers_removed": true
+  },
+  "WorldCover": {
+    "asset": "ESA/WorldCover/v200",
+    "doi": "10.5281/zenodo.7254221",
+    "license": "CC-BY-4.0",
+    "native_grid_m": 10
+  },
+  "Copernicus": {
+    "asset": "COPERNICUS/DEM/GLO30_2024_1",
+    "native_grid_m": 30
+  },
+  "FABDEM": {
+    "doi": "10.5523/bris.s5hqmjcdj8yo2ibzi9b4ew3sn",
+    "license": "CC-BY-NC-SA-4.0",
+    "source": "https://data.bris.ac.uk/data/dataset/s5hqmjcdj8yo2ibzi9b4ew3sn",
+    "native_grid_m": 30
+  },
+  "municipal": {
+    "base": "https://geoquito.quito.gob.ec/server/rest/services/",
+    "physical": "web_reference_dmot/plan_de_uso_y_gestion_del_suelo_2024/MapServer",
+    "raw_records_redistributed": false,
+    "source_conditions_not_relicensed": true
+  },
+  "census": {
+    "institution": "Instituto Nacional de Estadística y Censos",
+    "year": 2022,
+    "scale": "parroquia",
+    "no_household_data": true
+  },
+  "rain": {
+    "version": "V07",
+    "season": "2026-11/2027-01",
+    "forecast_retrained_in_this_package": false
+  },
+  "canavire_replication_reference": "https://github.com/anramosr/Canavire-Puerta-Ramos-2026-WorldDevelopment-Ecuador",
+  "not_included": [
+    "ENEMDU individuals or households",
+    "raw cadastral parcels/owners",
+    "NASA or Earth Engine credentials",
+    "other authors replication data"
+  ]
+}
