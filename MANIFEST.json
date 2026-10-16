@@ -1,6 +1,8 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "snapshot": "2026-10-09",
+  "distribution_date": "2026-10-16",
+  "note": "Datos, código estadístico y pesos sin cambios. Metadatos actualizados y atlas 3D con manifiesto propio.",
   "files": [
     {
       "name": ".gitattributes",
@@ -18,9 +20,14 @@
       "sha256": "886c0b21191c26d0252df03581e8a7d5914e653be865f121311f7db75f2bf616"
     },
     {
+      "name": "AUTORES_ARTICULO.json",
+      "bytes": 945,
+      "sha256": "f7fc2b96e9be667572a419f029ab5fb7b05106ae2c7b7589381c70df4d753b26"
+    },
+    {
       "name": "CITATION.cff",
       "bytes": 650,
-      "sha256": "3a73701d74a373b55396f016bf0feba8f9937cec3b5d603fe2f9c88ad3030ee1"
+      "sha256": "afa7dc6409f01bf13048f635d66440c66e3d64b9cbd1c3ca56d904cab40e43e9"
     },
     {
       "name": "CODIGO_HISTORICO.zip",
@@ -29,8 +36,23 @@
     },
     {
       "name": "DATA_LICENSES.md",
-      "bytes": 3374,
-      "sha256": "3003169a6ac834ec7d0d4b6fe7c1346e74c20ffdde006792e1ca6f79e31a622e"
+      "bytes": 4434,
+      "sha256": "551146884cb564f792b861ab84cab65fd1d38cf26868c844e37e08a4bd64b830"
+    },
+    {
+      "name": "DATOS_GEOMETRIA_PARROQUIAL.geojson",
+      "bytes": 3444421,
+      "sha256": "abaca78612178ffa50eacd9a6b6d84b5aef7af6ee21bc49563a9e7fe433b1d02"
+    },
+    {
+      "name": "DATOS_LLUVIA_ESCENARIOS.csv",
+      "bytes": 40302,
+      "sha256": "4447d4bf4319d47162a0ea4485b26921fdb6ec09d01f0aa6164c3b670cb27ca8"
+    },
+    {
+      "name": "DATOS_PARROQUIAS.csv",
+      "bytes": 10075,
+      "sha256": "359b5bf9510491b4fa306cf5ea5c7d0cf77d0f404610275706260aabdafa5448"
     },
     {
       "name": "DATOS_espacial__base.npz",
@@ -53,21 +75,6 @@
       "sha256": "cb372b246443372528717081b785cad7939ac69057875c3130f743442d39a122"
     },
     {
-      "name": "DATOS_GEOMETRIA_PARROQUIAL.geojson",
-      "bytes": 3444421,
-      "sha256": "abaca78612178ffa50eacd9a6b6d84b5aef7af6ee21bc49563a9e7fe433b1d02"
-    },
-    {
-      "name": "DATOS_LLUVIA_ESCENARIOS.csv",
-      "bytes": 40302,
-      "sha256": "4447d4bf4319d47162a0ea4485b26921fdb6ec09d01f0aa6164c3b670cb27ca8"
-    },
-    {
-      "name": "DATOS_PARROQUIAS.csv",
-      "bytes": 10075,
-      "sha256": "359b5bf9510491b4fa306cf5ea5c7d0cf77d0f404610275706260aabdafa5448"
-    },
-    {
       "name": "DATOS_temporal__base.npz",
       "bytes": 1925515,
       "sha256": "bfac6e6d96a8e51f6db74e69d9742a2f03f3fbf9244fcf870f814b574adbf177"
@@ -88,24 +95,19 @@
       "sha256": "c1ea6dc622765b6b01a85cfa94143ffe87a027f4a584837318c4dedc85609e67"
     },
     {
-      "name": "descargar_fuentes.py",
-      "bytes": 2529,
-      "sha256": "3349c42f843ff154f77ee56d2001b28eb47756d6fd94ff1bdc13459f78ebd4d4"
-    },
-    {
       "name": "DICCIONARIO_DATOS.md",
       "bytes": 2305,
       "sha256": "18519f15940de7711d45d5badf5c1071d8beb095620a139622f06cac2ca0f724"
     },
     {
+      "name": "EJECUTAR_CON_3D.py",
+      "bytes": 672,
+      "sha256": "74e0f48d7c6bddc1ab14919206d3d0387133af7fc5caa4997c25bc93472c9f6e"
+    },
+    {
       "name": "EJECUTAR_TODO.cmd",
       "bytes": 139,
       "sha256": "f363784afd1f58d7f0eb7c1b068a2f3873c94a8cb6d1a7a37cbca679b69d1b8d"
-    },
-    {
-      "name": "entrenar.py",
-      "bytes": 4811,
-      "sha256": "305b5f51531dac0f31ec9fa897343c863ac3f337d2babb70bdc1f4b60dc40721"
     },
     {
       "name": "FIGURA_construido_prioritario.png",
@@ -134,8 +136,8 @@
     },
     {
       "name": "LICENSE",
-      "bytes": 1321,
-      "sha256": "ad78d73af72e3780c88cfaa68ae03e66826fe165623e24b2eb9a383a0e551638"
+      "bytes": 1347,
+      "sha256": "f22403e06913edcd4ecfaf935d6393a6def6e3fce545608ddf698eee5b386de7"
     },
     {
       "name": "METODOLOGIA.md",
@@ -146,11 +148,6 @@
       "name": "MODEL_CARD.md",
       "bytes": 3540,
       "sha256": "fd84b7b40e9e50f2ddc99e8d0bae5477beb9f7a4084c50cb06422e9da64ea32d"
-    },
-    {
-      "name": "modelo.py",
-      "bytes": 2073,
-      "sha256": "92238c8b6c45ffb3747eadaa907d9c94d476b36223542b4956ff426099d1abc1"
     },
     {
       "name": "PARAMETROS.json",
@@ -228,14 +225,14 @@
       "sha256": "0e945766efd5dec24351f1284f2d0a8dbc8df288c0c456a7ed3dc480340bc225"
     },
     {
-      "name": "pruebas.py",
-      "bytes": 2583,
-      "sha256": "781668030022029e8667cd9359282bbd40fe22fe4aaab4b8f4f4540595f4779b"
+      "name": "README.md",
+      "bytes": 7798,
+      "sha256": "259388e0176b6bf907e309127caa5c55780751d12b685c6f0e37700028395344"
     },
     {
-      "name": "README.md",
-      "bytes": 6586,
-      "sha256": "471e11451d458bbb85f4bcf69c2eea3ae1ab26f45bbdedda4beb0db4d9f28863"
+      "name": "REFERENCIAS_PREDICCIONES.npz",
+      "bytes": 4472923,
+      "sha256": "0926b3ba01b4e960587b71ac56179b0222f3910d31b0b749f54a86e042b655d9"
     },
     {
       "name": "REFERENCIA_comparacion_modelos.csv",
@@ -273,31 +270,6 @@
       "sha256": "51d349cd448424ca1a94f9bf2ef3fd7c760ec8a14fcfc3ce70e52ad34a94d2ef"
     },
     {
-      "name": "referencias.bib",
-      "bytes": 15125,
-      "sha256": "8c6e18e27085e17c048c9ee444b2833de65900867b532db5faa4f769faa9718a"
-    },
-    {
-      "name": "REFERENCIAS_PREDICCIONES.npz",
-      "bytes": 4472923,
-      "sha256": "0926b3ba01b4e960587b71ac56179b0222f3910d31b0b749f54a86e042b655d9"
-    },
-    {
-      "name": "reproducir.py",
-      "bytes": 17942,
-      "sha256": "a7768d9435588b55e338bfad85ed6efd8fe027f5f380606d2d1aa3089df54d53"
-    },
-    {
-      "name": "requirements-entrenamiento.txt",
-      "bytes": 109,
-      "sha256": "8fe4e2a22755239826a4c57da4ab1e8c6d188e4de83cc0a7d11ce7e7d021dd66"
-    },
-    {
-      "name": "requirements.txt",
-      "bytes": 97,
-      "sha256": "b82e797217cd725df860af2cecd6aeb9435235ce02e6ed8bfc31a6471dd871ed"
-    },
-    {
       "name": "SECURITY.md",
       "bytes": 1551,
       "sha256": "8764429da55c8cb4c4915f07a025c581c3d9390a966ecdc537872826814ba736"
@@ -321,7 +293,46 @@
       "name": "VERIFICACION_REPRODUCCION.json",
       "bytes": 1155,
       "sha256": "12b3b6c5566d3bbaa7892ff7e7ef617cdf3c7e83f2d694d2094cbb338d9ac3af"
+    },
+    {
+      "name": "descargar_fuentes.py",
+      "bytes": 2529,
+      "sha256": "3349c42f843ff154f77ee56d2001b28eb47756d6fd94ff1bdc13459f78ebd4d4"
+    },
+    {
+      "name": "entrenar.py",
+      "bytes": 4811,
+      "sha256": "305b5f51531dac0f31ec9fa897343c863ac3f337d2babb70bdc1f4b60dc40721"
+    },
+    {
+      "name": "modelo.py",
+      "bytes": 2073,
+      "sha256": "92238c8b6c45ffb3747eadaa907d9c94d476b36223542b4956ff426099d1abc1"
+    },
+    {
+      "name": "pruebas.py",
+      "bytes": 2583,
+      "sha256": "781668030022029e8667cd9359282bbd40fe22fe4aaab4b8f4f4540595f4779b"
+    },
+    {
+      "name": "referencias.bib",
+      "bytes": 15125,
+      "sha256": "8c6e18e27085e17c048c9ee444b2833de65900867b532db5faa4f769faa9718a"
+    },
+    {
+      "name": "reproducir.py",
+      "bytes": 17942,
+      "sha256": "a7768d9435588b55e338bfad85ed6efd8fe027f5f380606d2d1aa3089df54d53"
+    },
+    {
+      "name": "requirements-entrenamiento.txt",
+      "bytes": 109,
+      "sha256": "8fe4e2a22755239826a4c57da4ab1e8c6d188e4de83cc0a7d11ce7e7d021dd66"
+    },
+    {
+      "name": "requirements.txt",
+      "bytes": 97,
+      "sha256": "b82e797217cd725df860af2cecd6aeb9435235ce02e6ed8bfc31a6471dd871ed"
     }
-  ],
-  "manifest_self_hash_excluded": true
+  ]
 }

@@ -1,0 +1,9 @@
+/2_CAPAS/copernicus_dsm_30m.tif
+/2_CAPAS/densidad_construida_10m.tif
+/2_CAPAS/derivados_30m.tif
+/2_CAPAS/escorrentia_fabdem_30m.tif
+/2_CAPAS/fabdem_30m.tif
+__pycache__/
+*.pyc
+CONTROL_LOCAL_3D.json
+*.restaurando

@@ -1,13 +1,20 @@
 # Quito: susceptibilidad a inundación y prioridad social bajo escenarios de lluvia
 
-**Autor: Wilson Gustavo Morales Lastra.** Investigador independiente, Ecuador.
+**Autor del código: Wilson Gustavo Morales Lastra.** Investigador independiente, Quito, Ecuador.
 ORCID: [0009-0008-3413-3705](https://orcid.org/0009-0008-3413-3705).
-Contacto académico: wilson.morales@epn.edu.ec.
+Contacto: wilogus9@gmail.com.
 
 Paquete de replicación de una red neuronal residual propia de intensidad relativa
 de reportes de inundación en Quito, integrada con NBI, saneamiento, agua y
 hacinamiento del censo 2022. Conserva escenarios de lluvia estacional, incluida
-una alternativa NMME. Corte de fuentes y decisiones: **2026-10-09**. Versión 1.0.0.
+una alternativa NMME. Corte de fuentes y decisiones: **2026-10-09**. Versión 1.1.0.
+
+Artículo asociado: **Pobreza y priorización ante inundaciones en Quito**, de
+Wilson Gustavo Morales Lastra y Josseline Daniela Chavez Carpio, investigadores
+independientes, Quito, Ecuador. Contacto de la coautora: chavezdan82@gmail.com;
+ORCID [0009-0003-4708-9719](https://orcid.org/0009-0003-4708-9719).
+`AUTORES_ARTICULO.json` distingue sus contribuciones al artículo de la autoría
+del código. Este repositorio no afirma aceptación ni publicación en una revista.
 
 La contribución es hacer reproducible una priorización multiescala: terreno y
 cobertura, susceptibilidad evaluada fuera de entrenamiento, pronóstico de lluvia
@@ -15,6 +22,21 @@ en su escala meteorológica y contexto social parroquial. El modelo de Quito es
 propio; **no es la red SAR de Microsoft ni una réplica de ese entrenamiento**.
 
 ## Ejecutar todo
+
+La versión 1.1.0 añade el [proyecto QGIS y visor 3D](atlas_3d/README.md), sin
+cambiar datos, pesos ni estimaciones. Para reproducir los resultados y preparar
+el atlas con una sola ejecución, instale las dependencias indicadas abajo y ejecute:
+
+```bash
+python EJECUTAR_CON_3D.py
+```
+
+Con `--abrir` también se abre el visor local al terminar. Las capas grandes se
+reúnen automáticamente desde partes incluidas en el repositorio, con control
+SHA-256. El atlas tiene un manifiesto propio, separado del paquete estadístico.
+La edición pública excluye las redes municipales originales y los puntos
+originales de reportes; conserva los resultados derivados y la exploración de
+relieve, susceptibilidad, lluvia y condiciones sociales.
 
 Requiere Python 3.10 o posterior y aproximadamente 1 GB de memoria disponible.
 Desde una copia completa del repositorio:

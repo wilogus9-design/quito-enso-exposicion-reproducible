@@ -1,0 +1,11 @@
+# Sólo para reconstruir/verificar; el visor no necesita estas bibliotecas.
+numpy
+pandas
+geopandas
+pyogrio
+shapely
+rasterio
+scipy
+Pillow
+matplotlib
+pyproj

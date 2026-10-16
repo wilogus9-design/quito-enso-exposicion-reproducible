@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Quito | Territorio y prioridad social · 3D</title>
+<link rel="stylesheet" href="visor.css">
+<script type="importmap">{"imports":{"three":"./vendor/three.module.js"}}</script>
+</head>
+<body>
+<aside id="panel">
+  <header><span class="eyebrow">ATLAS LOCAL · EPSG:32717</span><h1>Quito, en relieve</h1><p>Capas físicas, susceptibilidad y prioridad social</p></header>
+  <div class="status" id="status" role="status">Preparando escena 3D…</div>
+  <section><h2>Vista guardada</h2><div id="views" class="views"></div></section>
+  <section><h2>Qué quieres explorar</h2><label for="layer">Capa sobre el terreno</label><select id="layer"></select>
+    <div id="legend" class="legend"></div><p id="layer-note" class="small"></p>
+  </section>
+  <section><h2>Superposiciones</h2>
+    <label class="check"><input id="built" type="checkbox" checked> Construido válido + decil exacto</label>
+    <div class="small"><span class="legend-category"><span class="swatch" style="background:#aeb9c2"></span>Construido válido</span><span class="legend-category"><span class="swatch" style="background:#ba2c22"></span>Decil superior</span></div>
+    <label class="check"><input id="boundaries" type="checkbox" checked> Límites parroquiales</label>
+    <label class="check"><input id="rivers" type="checkbox" disabled> Redes municipales (consultar fuente)</label>
+    <label class="check"><input id="routes" type="checkbox"> Rutas digitales potenciales</label>
+    <label class="check"><input id="reports" type="checkbox" disabled> Reportes originales no redistribuidos</label>
+    <label for="overlay-opacity">Opacidad del construido <output id="opacity-value">85 %</output></label>
+    <input id="overlay-opacity" type="range" min="0" max="1" step="0.05" value="0.85">
+  </section>
+  <section><h2>Consultar parroquia</h2><label for="parish">Selecciona o pulsa sobre el terreno</label><select id="parish"><option value="">Sin selección</option></select><div id="detail" class="detail">La consulta social conserva el soporte parroquial; no identifica hogares.</div></section>
+  <section><h2>Relieve y navegación</h2>
+    <label for="vertical">Exageración vertical <output id="vertical-value">1.5× · sólo visual</output></label><input id="vertical" type="range" min="0.5" max="4" step="0.1" value="1.5">
+    <div class="views"><button id="true-scale">Altura 1:1</button><button id="north">Norte arriba</button><button id="snapshot">Guardar imagen</button></div>
+    <p class="small">Arrastrar: girar · rueda: acercar · botón derecho: desplazar. Las alturas consultadas no se exageran.</p>
+  </section>
+  <details><summary>Fuentes, resolución y límites</summary>
+    <p>Terreno FABDEM de 30 m; WorldCover 2021 de 10 m; cartografía PUGS; reportes SNGR; Censo 2022 y modelos congelados del estudio.</p>
+    <p id="resolution"></p><p id="weather-note"></p>
+    <p>No es un modelo hidráulico ni una reconstrucción individual de edificios. El color rojo no es agua observada ni inundación futura confirmada. La depresión digital no identifica necesariamente un paso deprimido real.</p>
+    <p>WorldCover: CC BY 4.0. Derivados FABDEM: CC BY-NC-SA 4.0. Consulte FUENTES_Y_LIMITES.md.</p>
+  </details>
+  <footer>Wilson Gustavo Morales Lastra · Investigación independiente<br>Edición pública reproducible · consulte las fuentes y licencias.</footer>
+</aside>
+<main id="scene" aria-label="Mapa tridimensional interactivo de Quito">
+  <div id="map-toolbar"><button id="toggle-panel" aria-expanded="true">Capas y consulta</button><span id="view-label">Núcleo urbano</span></div>
+  <div id="orientation"><strong id="north-arrow">N ↑</strong><span>Norte de la escena · «Norte arriba» restablece la vista</span></div>
+  <div id="coordinate">Pulsa sobre el terreno para consultar</div>
+  <div id="scale-note">Relieve 3D de terreno · no altura de inundación</div>
+  <div id="error" hidden role="alert"></div>
+</main>
+<script src="datos.js"></script><script type="module" src="visor.js"></script>
+</body></html>

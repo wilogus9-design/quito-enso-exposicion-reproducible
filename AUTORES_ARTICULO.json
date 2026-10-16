@@ -1,0 +1,23 @@
+{
+  "titulo": "Pobreza y priorización ante inundaciones en Quito",
+  "autores": [
+    {
+      "name": "Wilson Gustavo Morales Lastra",
+      "symbol": "*",
+      "email": "wilogus9@gmail.com",
+      "affiliation": "Investigador independiente",
+      "orcid": "https://orcid.org/0009-0008-3413-3705",
+      "roles": "Software; Investigación; Análisis formal"
+    },
+    {
+      "name": "Josseline Daniela Chavez Carpio",
+      "symbol": "**",
+      "email": "chavezdan82@gmail.com",
+      "affiliation": "Investigadora independiente",
+      "orcid": "https://orcid.org/0009-0003-4708-9719",
+      "roles": "Investigación; Redacción – borrador original; Redacción – revisión y edición"
+    }
+  ],
+  "correo_correspondencia": "wilogus9@gmail.com",
+  "nota": "Autoría del artículo. El código original y la reconstrucción conservan la autoría de Wilson; no se atribuye desarrollo de software a la coautora."
+}

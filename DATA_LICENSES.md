@@ -34,3 +34,20 @@ corresponde a Wilson Gustavo Morales Lastra. La autoría de las observaciones,
 productos satelitales y bases institucionales corresponde a sus productores.
 El paquete de Canavire y colaboradores es un antecedente ajeno y no se incluye.
 La asistencia computacional en la preparación no constituye coautoría humana.
+
+## Atlas tridimensional de la versión 1.1.0
+
+`atlas_3d` publica una edición preparada del proyecto QGIS y del visor local.
+Incluye recortes y derivados de terreno/cobertura con las condiciones indicadas
+arriba; FABDEM y sus derivados siguen CC BY-NC-SA 4.0. El proveedor confirma
+esa licencia en https://research-information.bris.ac.uk/en/datasets/fabdem-v1-2/.
+Las partes binarias se reúnen sin cambiar los valores ni las atribuciones.
+
+No se incluyen las redes municipales originales ni los puntos originales de
+los reportes de inundación en la edición pública. Los servicios de referencia
+consultados no establecieron una licencia de redistribución suficiente para
+añadirlos al repositorio; sus enlaces se conservan para consulta directa.
+Las rutas y depresiones digitales calculadas, las geometrías parroquiales
+procesadas y los indicadores agregados sí se incluyen. La licencia MIT del
+software no reemplaza los términos de los datos ni la licencia de Three.js,
+incluida por separado. No se publican cartas editoriales ni documentos de firma.

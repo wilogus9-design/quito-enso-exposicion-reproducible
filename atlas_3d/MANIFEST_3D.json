@@ -1,0 +1,672 @@
+{
+  "version": "1.1.0",
+  "date": "2026-10-16",
+  "layers": 45,
+  "themes": 9,
+  "views_3d": 4,
+  "data_snapshot": "2026-10-09",
+  "vector_counts": {
+    "candidatos_digitales": 388,
+    "lluvia_estacional": 186,
+    "parroquias": 65,
+    "rutas_potenciales": 10972
+  },
+  "qgis_native_verified": false,
+  "files": [
+    {
+      "path": "1_PROYECTO_QGIS/catalogo_capas.json",
+      "bytes": 23265,
+      "sha256": "85775b9cf00b75779f2c29eadf56711158a00538c81797dfec0ed63b16047467"
+    },
+    {
+      "path": "1_PROYECTO_QGIS/indice_proyecto.json",
+      "bytes": 33659,
+      "sha256": "8e6d344903e7b32fb824fb0b23dd689c9917348f502d4be75f9b8cde7d32203e"
+    },
+    {
+      "path": "1_PROYECTO_QGIS/quito_multicapa.qgs",
+      "bytes": 297599,
+      "sha256": "3b4d4843f83db1fc9e583ead45b9c5f99dc24593289159a30c35afe5d6af1dbf"
+    },
+    {
+      "path": "1_PROYECTO_QGIS/quito_multicapa.qgz",
+      "bytes": 21274,
+      "sha256": "69e78852a14c3f2582f3cd60647ef6a5f7417f31cd5d3cba6176be3afa758600"
+    },
+    {
+      "path": "2_CAPAS/construido_decil_exacto_10m.tif",
+      "bytes": 1175638,
+      "sha256": "efca9ca809f5e0d4c3543429a3ad54aee4175d7808c9c9220c5da38025e1ec9a"
+    },
+    {
+      "path": "2_CAPAS/copernicus_dsm_30m.tif",
+      "bytes": 52687688,
+      "sha256": "7403034592bef853cac4f241946e2aacc6c8e310ad1aaea6cc27740631aa641a",
+      "parts": [
+        {
+          "path": "_partes/copernicus_dsm_30m.tif.000.part",
+          "bytes": 20000000,
+          "sha256": "0d69030b7fa3cc1f87bf85ee9b3bf46556e27238e604c5b7d95f8c50e5287f6c"
+        },
+        {
+          "path": "_partes/copernicus_dsm_30m.tif.001.part",
+          "bytes": 20000000,
+          "sha256": "d08c9cf2f2eb34878ab23009b3c99a61915402a7ca7431fe2e2f00d19d3f6a36"
+        },
+        {
+          "path": "_partes/copernicus_dsm_30m.tif.002.part",
+          "bytes": 12687688,
+          "sha256": "e44f27f88ae8e515d61d96a6fbc0b0be72b20bc5d8f4d8271d1634010f895146"
+        }
+      ]
+    },
+    {
+      "path": "2_CAPAS/densidad_construida_10m.tif",
+      "bytes": 58179732,
+      "sha256": "198972ea85a205d129918d0993758d1253c8e930c5f04669619286a06a471ffc",
+      "parts": [
+        {
+          "path": "_partes/densidad_construida_10m.tif.000.part",
+          "bytes": 20000000,
+          "sha256": "eadabe8a65f184680ce3bb89e572b77ce29c63ec3ccf9901035f00f7ec1e2c48"
+        },
+        {
+          "path": "_partes/densidad_construida_10m.tif.001.part",
+          "bytes": 20000000,
+          "sha256": "406c356321c10b5a04baaceb2a0c64adc3a8cb6b31da4d32da8ea6aaeca0c07e"
+        },
+        {
+          "path": "_partes/densidad_construida_10m.tif.002.part",
+          "bytes": 18179732,
+          "sha256": "6f4c1a30bcf3dfe00f4d657976917f53fb47bd6f6233b95123f6a2aec75dfcd0"
+        }
+      ]
+    },
+    {
+      "path": "2_CAPAS/densidad_relativa_residual_10m.tif",
+      "bytes": 18059699,
+      "sha256": "4d622050ee277f30a56e549fae80e2b82356cc17f3ef8637edeb8cc58a4a1caf"
+    },
+    {
+      "path": "2_CAPAS/derivados_30m.tif",
+      "bytes": 216698466,
+      "sha256": "76601fb9781f6783a7e58d19672f58f67bdc83d66507eea45aeb50966464fbb7",
+      "parts": [
+        {
+          "path": "_partes/derivados_30m.tif.000.part",
+          "bytes": 20000000,
+          "sha256": "d7626024c78d1b8b7baa4d16c32d47d7e53cd405c7bf9f6a41bd7cd2ef743e11"
+        },
+        {
+          "path": "_partes/derivados_30m.tif.001.part",
+          "bytes": 20000000,
+          "sha256": "0dec1b172ac184b7397917ff1ec276964596068a0c41355516e775a9a0b9cacc"
+        },
+        {
+          "path": "_partes/derivados_30m.tif.002.part",
+          "bytes": 20000000,
+          "sha256": "740d8940e020684025e9d694025adc60239d9ee49a31cd38b946fa1ab01683f2"
+        },
+        {
+          "path": "_partes/derivados_30m.tif.003.part",
+          "bytes": 20000000,
+          "sha256": "d14c67658b8c04f9610f7b84a566586fff101ff35f0e9d47d01e3b33c990e80f"
+        },
+        {
+          "path": "_partes/derivados_30m.tif.004.part",
+          "bytes": 20000000,
+          "sha256": "18818363f2be1b4ffed403f7a14500cfbf80850299092a903bea55612edc6282"
+        },
+        {
+          "path": "_partes/derivados_30m.tif.005.part",
+          "bytes": 20000000,
+          "sha256": "87e54b4d713f67b5baf4fddf9cd9660f3640645705bf4a5c3ca1ce930eb3632c"
+        },
+        {
+          "path": "_partes/derivados_30m.tif.006.part",
+          "bytes": 20000000,
+          "sha256": "45051d4bac33a7fe491f4c6406176f1f01dd2ddbf0fa175c2439ff601fc26d32"
+        },
+        {
+          "path": "_partes/derivados_30m.tif.007.part",
+          "bytes": 20000000,
+          "sha256": "ed38f82996b21b6826b885daff320f0cf72b2348a612feb2d9f5e9776331aca1"
+        },
+        {
+          "path": "_partes/derivados_30m.tif.008.part",
+          "bytes": 20000000,
+          "sha256": "5b947ac8105186814cc9798f2d4ce2c33fdb929f64d056cbec5e78ae5a9f7ab6"
+        },
+        {
+          "path": "_partes/derivados_30m.tif.009.part",
+          "bytes": 20000000,
+          "sha256": "37344dd236a41de8832517741d36a62ebc1a90589a0e300959d12394cb1cb7b9"
+        },
+        {
+          "path": "_partes/derivados_30m.tif.010.part",
+          "bytes": 16698466,
+          "sha256": "6848117f50dc8a2a807a465a4fda6cfc3c729dee2694c97e594cb0c26465c129"
+        }
+      ]
+    },
+    {
+      "path": "2_CAPAS/escorrentia_fabdem_30m.tif",
+      "bytes": 86839886,
+      "sha256": "e621020e5dacb8c114ad3331a4009f681011637781e73833b20f6203c64755a5",
+      "parts": [
+        {
+          "path": "_partes/escorrentia_fabdem_30m.tif.000.part",
+          "bytes": 20000000,
+          "sha256": "d7aec60189c5115ffdcf402b91d0b6a117665e66984c6783d5390b8e745d58cb"
+        },
+        {
+          "path": "_partes/escorrentia_fabdem_30m.tif.001.part",
+          "bytes": 20000000,
+          "sha256": "6bfadd673cb5031ab4ec058893d02d8d6230d557b801ea6014023718f3047a61"
+        },
+        {
+          "path": "_partes/escorrentia_fabdem_30m.tif.002.part",
+          "bytes": 20000000,
+          "sha256": "e11bc466873be61fbfba1491b1fc48e4f8d8dc2ecb3f9b281e0c0aa122e4612b"
+        },
+        {
+          "path": "_partes/escorrentia_fabdem_30m.tif.003.part",
+          "bytes": 20000000,
+          "sha256": "91bfce36ccf6b854a8cf135b8d5b95eb46184f13d033631000efd675748d4884"
+        },
+        {
+          "path": "_partes/escorrentia_fabdem_30m.tif.004.part",
+          "bytes": 6839886,
+          "sha256": "a0dadc29cac0be02d4ee3b800cfc1e67c77b75320b6dd0185130e19baf99a5f6"
+        }
+      ]
+    },
+    {
+      "path": "2_CAPAS/fabdem_30m.tif",
+      "bytes": 22542665,
+      "sha256": "29c979edbac260acf6da482b04ee219fc33de27af5ae41c1a9c1bfb4a187e82d",
+      "parts": [
+        {
+          "path": "_partes/fabdem_30m.tif.000.part",
+          "bytes": 20000000,
+          "sha256": "b26553925f4e7009269fff7cc4ee5c7d764e390275bd13495e4f4c29ab894720"
+        },
+        {
+          "path": "_partes/fabdem_30m.tif.001.part",
+          "bytes": 2542665,
+          "sha256": "0dba2dd3b8f6c4e504ec07ef47fc16b96b6295280814dde9949919789c8e2eef"
+        }
+      ]
+    },
+    {
+      "path": "2_CAPAS/percentil_ancla_10m.tif",
+      "bytes": 8024098,
+      "sha256": "c4650e9b072c98bf774d25bcc15c62cda136a003f5de324e26db7d43ce479012"
+    },
+    {
+      "path": "2_CAPAS/percentil_residual_10m.tif",
+      "bytes": 8043973,
+      "sha256": "1ee500c26e1ad03953593be10a64e41f4a986c88b5f64c5b2fa25b68b2ea8f57"
+    },
+    {
+      "path": "2_CAPAS/soporte_acotado_10m.tif",
+      "bytes": 5708993,
+      "sha256": "ce1c5e6499cb18e603639e2e1a52975fd59b8e2a593b2ff5850ec53184949cdb"
+    },
+    {
+      "path": "2_CAPAS/vectores_quito.gpkg",
+      "bytes": 7774208,
+      "sha256": "21aebb89c35bdb8688c6af51a5f2cbc4d02c5b139950e08da9343c302977747f"
+    },
+    {
+      "path": "2_CAPAS/worldcover_2021_10m.tif",
+      "bytes": 6007804,
+      "sha256": "c535888a1793d9f5981637442bf714ac487f7700aa4a66d1f37e8a5e565dfb1c"
+    },
+    {
+      "path": "3_CODIGO/construir_capas.py",
+      "bytes": 21801,
+      "sha256": "4363bbb46895ec84a2d46dfb5ad766d96ccb2bfd43b41f087396857cd1ee8680"
+    },
+    {
+      "path": "3_CODIGO/construir_qgis.py",
+      "bytes": 14885,
+      "sha256": "577741efb27654c2255490c5200adf9393ecfe5135f975a2191519395bad46b6"
+    },
+    {
+      "path": "3_CODIGO/descargar_recursos.py",
+      "bytes": 2990,
+      "sha256": "a3c39a30227bfb87f43975e4e57a8a4f1379625ce9baed1f7b33db8e8eb38bac"
+    },
+    {
+      "path": "3_CODIGO/requirements_gis.txt",
+      "bytes": 155,
+      "sha256": "a7fa5a71300b90fd3eaaf718ed0451797ae81cb5f7461e16d43f4392df1b2c7a"
+    },
+    {
+      "path": "3_CODIGO/validar_en_qgis.py",
+      "bytes": 1403,
+      "sha256": "ff120378de197e571f7d833060e0ec9f62287ea41f48cfb41d2696fc19a81046"
+    },
+    {
+      "path": "4_VISOR/datos.js",
+      "bytes": 5720386,
+      "sha256": "ef494ff3e5aade0436298f40c8fd47cd856994b9d327b48012106fa01f3b267b"
+    },
+    {
+      "path": "4_VISOR/index.html",
+      "bytes": 4190,
+      "sha256": "43031c229ca0955508a02264570c351c496af74bfd43d2104aa60f0fcaf5b6c6"
+    },
+    {
+      "path": "4_VISOR/texturas/agua.png",
+      "bytes": 73338,
+      "sha256": "02e577acb9726725157026b1e5ec73b65e3b745229b4b02e745103df971d1335"
+    },
+    {
+      "path": "4_VISOR/texturas/altitud_modelo.png",
+      "bytes": 2936066,
+      "sha256": "ba84d917ace663097d28fc7fe84ed920e5993a18cf8f4940660fc29fab0199aa"
+    },
+    {
+      "path": "4_VISOR/texturas/ancla.png",
+      "bytes": 821470,
+      "sha256": "26d0afb5267555916f827671f1d8f76d4b131314591592bc3feaa0e9c8307bd8"
+    },
+    {
+      "path": "4_VISOR/texturas/area_final.png",
+      "bytes": 63036,
+      "sha256": "60ac74b6cfec73705515467d80d4cc1f9b0a117a14c814ac459eda750ca2e6d9"
+    },
+    {
+      "path": "4_VISOR/texturas/borde.png",
+      "bytes": 296953,
+      "sha256": "1bf6b1df312f94335d8a1013aa30c34d631169c56127ca5e79c5372832f8b020"
+    },
+    {
+      "path": "4_VISOR/texturas/clase10.png",
+      "bytes": 576691,
+      "sha256": "5aff84844619b18b7fb713107e603a51ad15c8b6096a005d13176ebb73a5fe06"
+    },
+    {
+      "path": "4_VISOR/texturas/clase100.png",
+      "bytes": 17999,
+      "sha256": "24b16b4521d61394748e23d21248e989a4fe3ab7664da93098e63afaade89d93"
+    },
+    {
+      "path": "4_VISOR/texturas/clase20.png",
+      "bytes": 223141,
+      "sha256": "a586b3478edbe5f67a381ef4e9c40c9072e557274974f4db0afe86154baddcfa"
+    },
+    {
+      "path": "4_VISOR/texturas/clase30.png",
+      "bytes": 616984,
+      "sha256": "eb4df4c7a73ec8d44c03f414493843dce98c19d78f2f5bda96cf783b13aa864b"
+    },
+    {
+      "path": "4_VISOR/texturas/clase40.png",
+      "bytes": 237008,
+      "sha256": "33280afd963824119fc2cb96941657b662c601ee24a8214c9f91cd11b6f9e9e5"
+    },
+    {
+      "path": "4_VISOR/texturas/clase50.png",
+      "bytes": 159121,
+      "sha256": "08aa7e5f6a1068a049ce39c79a24825b5f1d08e06ea0ad7f8ecbc8b162248e6f"
+    },
+    {
+      "path": "4_VISOR/texturas/clase60.png",
+      "bytes": 44493,
+      "sha256": "8c2023990655ffd26cae149513684455fe63776b91e4321fca384eda3bd90579"
+    },
+    {
+      "path": "4_VISOR/texturas/clase70.png",
+      "bytes": 18060,
+      "sha256": "289307ead0adf87337f0f2099a75347471ed04b0f826ab6ee834898c1e74c148"
+    },
+    {
+      "path": "4_VISOR/texturas/clase80.png",
+      "bytes": 24019,
+      "sha256": "62a68855eb0f1451905fc373c8a1acd79b2dfee93e1aa9292df2c44ea5549e03"
+    },
+    {
+      "path": "4_VISOR/texturas/clase90.png",
+      "bytes": 18724,
+      "sha256": "e8286bc9bdfd1a92cdd571235e7028aaceb49be3375059c88569bf292430dec4"
+    },
+    {
+      "path": "4_VISOR/texturas/clase95.png",
+      "bytes": 17999,
+      "sha256": "24b16b4521d61394748e23d21248e989a4fe3ab7664da93098e63afaade89d93"
+    },
+    {
+      "path": "4_VISOR/texturas/cobertura.png",
+      "bytes": 1088136,
+      "sha256": "1016263a8da8805c6578e872497144fce97662eb9927bfaf3f0dfb88391ef569"
+    },
+    {
+      "path": "4_VISOR/texturas/colector.png",
+      "bytes": 713047,
+      "sha256": "2ced4da2d23cc4dc1bf2643e2848e49d559b5b8ffe3cd7cf9c6d63b8403f0ed5"
+    },
+    {
+      "path": "4_VISOR/texturas/contribuye.png",
+      "bytes": 10822499,
+      "sha256": "e263f8cd7320d6731f50ef7745dda0ef574bfc01590a6be8e77c44c84f6d1f71"
+    },
+    {
+      "path": "4_VISOR/texturas/decil.png",
+      "bytes": 150855,
+      "sha256": "295f8ecfcda2dd720a40641ba4772f84ae1d77509f9d01834ec361d0605e2828"
+    },
+    {
+      "path": "4_VISOR/texturas/dens110.png",
+      "bytes": 1585861,
+      "sha256": "56a34b89d6ccda183e7fa73e9fc2004ed292948f89e4bb88527e0ac167b429c3"
+    },
+    {
+      "path": "4_VISOR/texturas/dens510.png",
+      "bytes": 1194015,
+      "sha256": "f26f10a50c15397e4238060346d27a1acc11171419bb4b440741130cb4414b0b"
+    },
+    {
+      "path": "4_VISOR/texturas/densidad_relativa.png",
+      "bytes": 710893,
+      "sha256": "1b6afbef1a13bca70ddeb0c231fb7f95a2797b05ecf7441951e10cadf040ed47"
+    },
+    {
+      "path": "4_VISOR/texturas/depresion.png",
+      "bytes": 358971,
+      "sha256": "a7ffd9fcf420686a4b684d0dfb0618d65b628db74c7a010e8ac3cb71e509a28d"
+    },
+    {
+      "path": "4_VISOR/texturas/estabilidad.png",
+      "bytes": 51893,
+      "sha256": "8e3a898273743f9a484963a84416193702a4e525e61d17896c7f7d6f464029b5"
+    },
+    {
+      "path": "4_VISOR/texturas/fraccion_arriba.png",
+      "bytes": 1961621,
+      "sha256": "8a26f5ce69ddba4cadd585536d108b80a17e8cad64b9a14589f6c55fa0cfbc6a"
+    },
+    {
+      "path": "4_VISOR/texturas/hacinamiento.png",
+      "bytes": 74123,
+      "sha256": "37c4b6f7abf32581c90691a122ea4b2f1727fa6cb0fc49bf520a4960a4a013f0"
+    },
+    {
+      "path": "4_VISOR/texturas/hem.png",
+      "bytes": 4138979,
+      "sha256": "a1ee5e9b01e38669ff43e66010e26edcac3f721511c5275db98405c52c7298c2"
+    },
+    {
+      "path": "4_VISOR/texturas/indice_nbi.png",
+      "bytes": 63752,
+      "sha256": "60769a08b46ffd05c02885c438eaa47adfb47ff6aa91647c5b710cc2eaf1e75d"
+    },
+    {
+      "path": "4_VISOR/texturas/leyenda_agua.png",
+      "bytes": 239,
+      "sha256": "e07c2f501975bddd3694d2e7e4f58641ce65a6e88e4d657d17400d0229fa60e1"
+    },
+    {
+      "path": "4_VISOR/texturas/leyenda_altitud_modelo.png",
+      "bytes": 267,
+      "sha256": "9a464c1a388db503cb3a49fd5563639324b6e17623ae16306cad57c92d42f603"
+    },
+    {
+      "path": "4_VISOR/texturas/leyenda_ancla.png",
+      "bytes": 213,
+      "sha256": "a663810e3b6fcdcfd8a9945f15f551021b7f30a40e870e996c56e293ff3c3ad0"
+    },
+    {
+      "path": "4_VISOR/texturas/leyenda_area_final.png",
+      "bytes": 213,
+      "sha256": "a663810e3b6fcdcfd8a9945f15f551021b7f30a40e870e996c56e293ff3c3ad0"
+    },
+    {
+      "path": "4_VISOR/texturas/leyenda_borde.png",
+      "bytes": 241,
+      "sha256": "1ff48360165aec751d2cf4f0d9e0745b17aa2a911e402d6312a8bfbf3dff92b0"
+    },
+    {
+      "path": "4_VISOR/texturas/leyenda_colector.png",
+      "bytes": 242,
+      "sha256": "ee42f310f9d749762dd68aeb578cb0a53e199acd723cd96be28552f6284517f0"
+    },
+    {
+      "path": "4_VISOR/texturas/leyenda_contribuye.png",
+      "bytes": 243,
+      "sha256": "6e2d8c06d680d870676055e7bc924361ad70ff9d39ba88e0c2e3da2e66588ce6"
+    },
+    {
+      "path": "4_VISOR/texturas/leyenda_dens110.png",
+      "bytes": 265,
+      "sha256": "a91ff32198a60595574f782d00cec516f7281d69a76e04aadcebc666d041c541"
+    },
+    {
+      "path": "4_VISOR/texturas/leyenda_dens510.png",
+      "bytes": 265,
+      "sha256": "a91ff32198a60595574f782d00cec516f7281d69a76e04aadcebc666d041c541"
+    },
+    {
+      "path": "4_VISOR/texturas/leyenda_densidad_relativa.png",
+      "bytes": 213,
+      "sha256": "a663810e3b6fcdcfd8a9945f15f551021b7f30a40e870e996c56e293ff3c3ad0"
+    },
+    {
+      "path": "4_VISOR/texturas/leyenda_depresion.png",
+      "bytes": 204,
+      "sha256": "2ddb757b48400f1bf7325fe2c487962e73bdc57d3ee9acf8b6afbce491d25d46"
+    },
+    {
+      "path": "4_VISOR/texturas/leyenda_estabilidad.png",
+      "bytes": 239,
+      "sha256": "e07c2f501975bddd3694d2e7e4f58641ce65a6e88e4d657d17400d0229fa60e1"
+    },
+    {
+      "path": "4_VISOR/texturas/leyenda_fraccion_arriba.png",
+      "bytes": 241,
+      "sha256": "1ff48360165aec751d2cf4f0d9e0745b17aa2a911e402d6312a8bfbf3dff92b0"
+    },
+    {
+      "path": "4_VISOR/texturas/leyenda_hacinamiento.png",
+      "bytes": 242,
+      "sha256": "a5e2a907ace8ca8b2e2f5338bac9eddbedf10e89dfc3833dd642a1f5157a8179"
+    },
+    {
+      "path": "4_VISOR/texturas/leyenda_hem.png",
+      "bytes": 241,
+      "sha256": "1ff48360165aec751d2cf4f0d9e0745b17aa2a911e402d6312a8bfbf3dff92b0"
+    },
+    {
+      "path": "4_VISOR/texturas/leyenda_indice_nbi.png",
+      "bytes": 213,
+      "sha256": "a663810e3b6fcdcfd8a9945f15f551021b7f30a40e870e996c56e293ff3c3ad0"
+    },
+    {
+      "path": "4_VISOR/texturas/leyenda_lluvia.png",
+      "bytes": 204,
+      "sha256": "2ddb757b48400f1bf7325fe2c487962e73bdc57d3ee9acf8b6afbce491d25d46"
+    },
+    {
+      "path": "4_VISOR/texturas/leyenda_nbi.png",
+      "bytes": 213,
+      "sha256": "a663810e3b6fcdcfd8a9945f15f551021b7f30a40e870e996c56e293ff3c3ad0"
+    },
+    {
+      "path": "4_VISOR/texturas/leyenda_pendiente.png",
+      "bytes": 241,
+      "sha256": "1ff48360165aec751d2cf4f0d9e0745b17aa2a911e402d6312a8bfbf3dff92b0"
+    },
+    {
+      "path": "4_VISOR/texturas/leyenda_posicion.png",
+      "bytes": 264,
+      "sha256": "c22b30d7d74fc99ce72b72d27d51fca96f3d1e58e8fd31db0640fe798fc74531"
+    },
+    {
+      "path": "4_VISOR/texturas/leyenda_quebrada.png",
+      "bytes": 242,
+      "sha256": "ee42f310f9d749762dd68aeb578cb0a53e199acd723cd96be28552f6284517f0"
+    },
+    {
+      "path": "4_VISOR/texturas/leyenda_relieve.png",
+      "bytes": 243,
+      "sha256": "6e2d8c06d680d870676055e7bc924361ad70ff9d39ba88e0c2e3da2e66588ce6"
+    },
+    {
+      "path": "4_VISOR/texturas/leyenda_rio.png",
+      "bytes": 242,
+      "sha256": "ee42f310f9d749762dd68aeb578cb0a53e199acd723cd96be28552f6284517f0"
+    },
+    {
+      "path": "4_VISOR/texturas/leyenda_saneamiento.png",
+      "bytes": 213,
+      "sha256": "a663810e3b6fcdcfd8a9945f15f551021b7f30a40e870e996c56e293ff3c3ad0"
+    },
+    {
+      "path": "4_VISOR/texturas/leyenda_susceptibilidad.png",
+      "bytes": 213,
+      "sha256": "a663810e3b6fcdcfd8a9945f15f551021b7f30a40e870e996c56e293ff3c3ad0"
+    },
+    {
+      "path": "4_VISOR/texturas/leyenda_terreno.png",
+      "bytes": 267,
+      "sha256": "9a464c1a388db503cb3a49fd5563639324b6e17623ae16306cad57c92d42f603"
+    },
+    {
+      "path": "4_VISOR/texturas/leyenda_urbano_arriba.png",
+      "bytes": 265,
+      "sha256": "a91ff32198a60595574f782d00cec516f7281d69a76e04aadcebc666d041c541"
+    },
+    {
+      "path": "4_VISOR/texturas/leyenda_vias.png",
+      "bytes": 242,
+      "sha256": "ee42f310f9d749762dd68aeb578cb0a53e199acd723cd96be28552f6284517f0"
+    },
+    {
+      "path": "4_VISOR/texturas/lluvia.png",
+      "bytes": 37538,
+      "sha256": "e1a77c7977a93979101517391360643e4bedcb1054ec6c98f9a5f0c75dd4e39c"
+    },
+    {
+      "path": "4_VISOR/texturas/nbi.png",
+      "bytes": 72661,
+      "sha256": "8723b54aedc47cf40713323157dc36c3caaefdb5d02364ea3f11d4dc28e6aea3"
+    },
+    {
+      "path": "4_VISOR/texturas/pendiente.png",
+      "bytes": 11461589,
+      "sha256": "9843fa8c89e0a8a235c0f4db8db604702a2513183fa382b0a42dbd619f7591d0"
+    },
+    {
+      "path": "4_VISOR/texturas/posicion.png",
+      "bytes": 9170430,
+      "sha256": "d0a6c7f8b7e3cd1558807fd0d4ed246607d31eb293ddd6b1d022941953e8c6d9"
+    },
+    {
+      "path": "4_VISOR/texturas/quebrada.png",
+      "bytes": 1940206,
+      "sha256": "1afe7d04e9edd17b35b97c57f9e5c24a38807b17cf60bbdd19ae5646c2d40d77"
+    },
+    {
+      "path": "4_VISOR/texturas/relieve.png",
+      "bytes": 4038593,
+      "sha256": "3cec70e655eeddbadf72c5a0c8d747a67f9f913d716d438298b789dcd1cc2ef4"
+    },
+    {
+      "path": "4_VISOR/texturas/rio.png",
+      "bytes": 1910764,
+      "sha256": "36c56920580ada066b4d94905821f066d83bfedc67cc627201ad2422008f92c7"
+    },
+    {
+      "path": "4_VISOR/texturas/saneamiento.png",
+      "bytes": 72128,
+      "sha256": "7e0a999b1a9b6e9855c9c0e2e4f149db07e1955d6743191caffc46d1bf0c0711"
+    },
+    {
+      "path": "4_VISOR/texturas/soporte.png",
+      "bytes": 136434,
+      "sha256": "a1df5c1270533c51aaf5df4769b5e85ff0f992c3ca658d41fbb51b45447ffc49"
+    },
+    {
+      "path": "4_VISOR/texturas/susceptibilidad.png",
+      "bytes": 822760,
+      "sha256": "f9caf9aa4ef87bc1f248af7dd4c6ca9c7da9126f80bea3211c3e1549e90ea7fd"
+    },
+    {
+      "path": "4_VISOR/texturas/terreno.png",
+      "bytes": 2840484,
+      "sha256": "a251cda3fb0f5fb66a37e6b77743674d5beafe47215382cce369970c67c6004d"
+    },
+    {
+      "path": "4_VISOR/texturas/urbano_arriba.png",
+      "bytes": 2278779,
+      "sha256": "5cfe778737852e38e1b7a820c4597ba09304485a841077653cfd75b50f123d8a"
+    },
+    {
+      "path": "4_VISOR/texturas/vias.png",
+      "bytes": 1363313,
+      "sha256": "3bdb562d6d5d0e4fc3454fea56e3d33c9895381273d8195b9db9fb4d32066ffc"
+    },
+    {
+      "path": "4_VISOR/vendor/OrbitControls.js",
+      "bytes": 29868,
+      "sha256": "5a44a9e86a2a0fb11933eed69bc2cd33c76a496854c1aed6ed776efa87d7b064"
+    },
+    {
+      "path": "4_VISOR/vendor/THREE-LICENSE.txt",
+      "bytes": 1081,
+      "sha256": "852e0e8699169bf9f6fdc6bda3e682d078dcbc738b5d33e74df594721bff271d"
+    },
+    {
+      "path": "4_VISOR/vendor/three.module.js",
+      "bytes": 1272972,
+      "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
+    },
+    {
+      "path": "4_VISOR/visor.css",
+      "bytes": 3693,
+      "sha256": "fab30906ceeff400c9b8d0cfeb27d4d535a8b30db3df8fda2019cfc18d36dca5"
+    },
+    {
+      "path": "4_VISOR/visor.js",
+      "bytes": 14949,
+      "sha256": "b4a6eb67ce42bf1e982f0516f3414ff236964c33255ee2d1ad9d11b2addce207"
+    },
+    {
+      "path": "ABRIR_VISOR.cmd",
+      "bytes": 322,
+      "sha256": "0ecb2d21ea91272d459c19df3c4ba5c1185a7516e60f385e15848fd74c457572"
+    },
+    {
+      "path": "ABRIR_VISOR.py",
+      "bytes": 1997,
+      "sha256": "58cb98fdbe9d3a699d592bb63bb16830389e46d30b5df725d23921e35b41295c"
+    },
+    {
+      "path": "EJECUTAR_TODO.py",
+      "bytes": 290,
+      "sha256": "ad0351a1ba0c036b9531fcb8e8ccfd2220619e603199edf12cd7de176a27e45f"
+    },
+    {
+      "path": "FUENTES_Y_LIMITES.md",
+      "bytes": 7318,
+      "sha256": "9da73575ebbd485182cbd98911bbbfd3dbd7c141ca0f3b09f90e638061172639"
+    },
+    {
+      "path": "INVENTARIO_CAPAS.md",
+      "bytes": 2952,
+      "sha256": "e43fff7496a626538a7b746a27a608dbb23f1e171b1c99898f48340083ebb50a"
+    },
+    {
+      "path": "preparar_3d.py",
+      "bytes": 4614,
+      "sha256": "57e3911fd5f7261daae7d017cef58b880ae179e361fa7b496932d05c77193252"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3702,
+      "sha256": "72c7580032ca7bb00a11c51a1789271ba6b7e3053e5a2c8fb358c338d1ca74cc"
+    }
+  ]
+}
